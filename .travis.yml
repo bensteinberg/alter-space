@@ -21,6 +21,7 @@ install:
 - cd ..
 
 script:
+- mkdir tests/lightstore
 - fab test
 
 after_success:
